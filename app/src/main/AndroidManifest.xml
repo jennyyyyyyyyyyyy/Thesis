@@ -12,7 +12,11 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+
+    <!--        for accessing the http api:not secured : usesclaertextraffic-->
     <application
+
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="FILConnectEd"
@@ -114,7 +118,7 @@
 
 
         <activity
-            android:name=".both.Start"
+            android:name=".FastApi.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

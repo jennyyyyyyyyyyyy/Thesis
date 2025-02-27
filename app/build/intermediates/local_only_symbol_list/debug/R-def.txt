@@ -116,8 +116,12 @@ id btnCollectData
 id btnDelete
 id btnDone
 id btnEdit
+id btnListVideos
 id btnOk
+id btnRename
+id btnShowVideo
 id btnStartTraining
+id btnUpload
 id btn_fsl_to_text
 id btn_reply
 id btn_restart
@@ -147,6 +151,10 @@ id dialog_message
 id dialog_title
 id dynamicGesture
 id editButton
+id etDeleteFilename
+id etNewName
+id etOldName
+id etShowFilename
 id et_input
 id fileContent
 id files
@@ -163,8 +171,10 @@ id linear
 id linearLayout2
 id linearLayout3
 id linearLayout4
+id listVideosButton
 id login_dropbox
 id logout
+id logsTextView
 id maintenance
 id menu
 id menubtn
@@ -185,6 +195,7 @@ id recyclerview_results
 id register_btn
 id search_button
 id search_video_button
+id selectFileButton
 id selected_file_path
 id showDialogButton
 id start_animation
@@ -198,10 +209,13 @@ id title_text
 id top_box
 id tvLabel
 id tvMessage
+id tvResult
 id tv_category
 id tv_text
 id upload
+id uploadButton
 id user_text_display
+id videoView
 id video_category_input
 id video_name_input
 id video_view
@@ -220,6 +234,8 @@ layout activity_dev_info
 layout activity_fsl_to_text
 layout activity_home_page
 layout activity_input_adpter1
+layout activity_main
+layout activity_main1
 layout activity_sign_in
 layout activity_sign_up_success
 layout activity_speech_to_text
