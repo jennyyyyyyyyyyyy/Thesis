@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_fsl_to_text.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_fsl_to_text.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_sign_in.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/dialog_training_static_gesture_label.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/dialog_training_static_gesture_label.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/ap_three_delete.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/ap_three_delete.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/dropdown_themes.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/dropdown_themes.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/test_progress_dialog_btn.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/test_progress_dialog_btn.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_training1.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_training1.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/ap_two_audio.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/ap_two_audio.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_text_to_fsl1.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_text_to_fsl1.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/ap_two_text_output.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/ap_two_text_output.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/ap_two_restart.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/ap_two_restart.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_speech_to_text.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_speech_to_text.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_text_to_fsl.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_text_to_fsl.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_training_adapter.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_training_adapter.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/dialog_admin_logout.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/dialog_admin_logout.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_welcome_admin.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_welcome_admin.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/dialog_training_permission.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/dialog_training_permission.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/ap_three_fsl_output.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/ap_three_fsl_output.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_about.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_about.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_training_camera.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_training_camera.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_training.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_training.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_input_adpter1.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_input_adpter1.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/ap_one_start.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/ap_one_start.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_home_page.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_home_page.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_add_video_text_to_fsl2.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_add_video_text_to_fsl2.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/fragment_camera.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/fragment_camera.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/text_view_for_dropdown.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/text_view_for_dropdown.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/ap_three_audio.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/ap_three_audio.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/dialog_training_dynamic_gesture_label.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/dialog_training_dynamic_gesture_label.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_ap_one.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_ap_one.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/ap_three_text_output.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/ap_three_text_output.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/dialog_confirm_delete.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/dialog_confirm_delete.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/reusable_top_ui.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/reusable_top_ui.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_add_video_text_to_fsl1.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_add_video_text_to_fsl1.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/item_training_folder.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/item_training_folder.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/dialog_training_gesture_type.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/dialog_training_gesture_type.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/item_gesture_recognizer_result.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/item_gesture_recognizer_result.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_sign_up_success.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_sign_up_success.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_dev_info.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_dev_info.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/dialog_training_collect_key_pose.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/dialog_training_collect_key_pose.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_ap_two.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_ap_two.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_start.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_start.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_training_camera1.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_training_camera1.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_add_video_text_to_fsl.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_add_video_text_to_fsl.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_upload_video.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_upload_video.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/dialog_homepage_menu.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/dialog_homepage_menu.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_app_three.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_app_three.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/activity_upload_video_adapter.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/activity_upload_video_adapter.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/progress_dialog.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/progress_dialog.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-54:/layout/ap_two_text_to_fsl.xml",
+        "source": "thesis.filconnected.app-main-57:/layout/ap_two_text_to_fsl.xml"
+    }
+]

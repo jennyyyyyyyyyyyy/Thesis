@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="thesis.filconnected"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="34" />
+    <!-- Declare permissions and features -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" /> <!-- for voice -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="thesis.filconnected.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="thesis.filconnected.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FILConnectEd"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.GestureRecognizer" >
+        <service
+            android:name="android.speech.RecognitionService"
+            android:permission="android.permission.BIND_SPEECH_RECOGNITION" />
+
+        <!-- App Tutorial -->
+        <activity
+            android:name="thesis.filconnected.users.apptutorial.AppTwoFslToText"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.users.apptutorial.AppThreeTextToFsl"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.users.apptutorial.AppOneFslToText"
+            android:exported="false" />
+
+        <!-- Admin -->
+
+        <activity
+            android:name="thesis.filconnected.admin.model_version.Training"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.admin.model_version.TrainingCamera"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.admin.SignIn"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.admin.SignUpSuccess"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.AddVideoAdmin.UploadVideo"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.admin.AddVideoTextToFsl"
+            android:exported="false" />
+
+        <!-- users -->
+
+        <activity
+            android:name="thesis.filconnected.users.Modal"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.users.TextToFsl"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.users.HomePage"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.users.DevInfo"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.users.About"
+            android:exported="false" />
+        <activity
+            android:name="thesis.filconnected.users.FSLtoText"
+            android:exported="true" />
+
+        <!-- both -->
+        <activity
+            android:name="thesis.filconnected.admin.WelcomeAdmin"
+            android:exported="true" >
+            <meta-data
+                android:name="android.notch_support"
+                android:value="true" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="oauth2redirect"
+                    android:scheme="filconnected" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="thesis.filconnected.both.Start"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="androidx.camera.core.impl.MetadataHolderService"
+            android:enabled="false"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+        </service>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="thesis.filconnected.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>
