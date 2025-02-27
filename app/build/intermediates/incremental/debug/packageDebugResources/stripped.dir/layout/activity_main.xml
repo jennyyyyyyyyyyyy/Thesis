@@ -4,6 +4,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
+    <EditText
+        android:id="@+id/etCustomFilename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter filename" />
 
     <Button
         android:id="@+id/btnUpload"

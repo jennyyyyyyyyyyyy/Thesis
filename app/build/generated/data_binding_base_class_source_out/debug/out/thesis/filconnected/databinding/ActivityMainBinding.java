@@ -38,6 +38,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnUpload;
 
   @NonNull
+  public final EditText etCustomFilename;
+
+  @NonNull
   public final EditText etDeleteFilename;
 
   @NonNull
@@ -57,15 +60,16 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button btnDelete,
       @NonNull Button btnListVideos, @NonNull Button btnRename, @NonNull Button btnShowVideo,
-      @NonNull Button btnUpload, @NonNull EditText etDeleteFilename, @NonNull EditText etNewName,
-      @NonNull EditText etOldName, @NonNull EditText etShowFilename, @NonNull TextView tvResult,
-      @NonNull VideoView videoView) {
+      @NonNull Button btnUpload, @NonNull EditText etCustomFilename,
+      @NonNull EditText etDeleteFilename, @NonNull EditText etNewName, @NonNull EditText etOldName,
+      @NonNull EditText etShowFilename, @NonNull TextView tvResult, @NonNull VideoView videoView) {
     this.rootView = rootView;
     this.btnDelete = btnDelete;
     this.btnListVideos = btnListVideos;
     this.btnRename = btnRename;
     this.btnShowVideo = btnShowVideo;
     this.btnUpload = btnUpload;
+    this.etCustomFilename = etCustomFilename;
     this.etDeleteFilename = etDeleteFilename;
     this.etNewName = etNewName;
     this.etOldName = etOldName;
@@ -131,6 +135,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.etCustomFilename;
+      EditText etCustomFilename = ViewBindings.findChildViewById(rootView, id);
+      if (etCustomFilename == null) {
+        break missingId;
+      }
+
       id = R.id.etDeleteFilename;
       EditText etDeleteFilename = ViewBindings.findChildViewById(rootView, id);
       if (etDeleteFilename == null) {
@@ -168,8 +178,8 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((LinearLayout) rootView, btnDelete, btnListVideos, btnRename,
-          btnShowVideo, btnUpload, etDeleteFilename, etNewName, etOldName, etShowFilename, tvResult,
-          videoView);
+          btnShowVideo, btnUpload, etCustomFilename, etDeleteFilename, etNewName, etOldName,
+          etShowFilename, tvResult, videoView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

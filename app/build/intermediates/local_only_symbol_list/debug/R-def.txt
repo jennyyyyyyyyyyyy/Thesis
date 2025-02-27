@@ -151,6 +151,7 @@ id dialog_message
 id dialog_title
 id dynamicGesture
 id editButton
+id etCustomFilename
 id etDeleteFilename
 id etNewName
 id etOldName
