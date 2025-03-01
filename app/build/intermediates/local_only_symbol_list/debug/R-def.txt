@@ -189,6 +189,7 @@ id output
 id overlay
 id overlay_view
 id permissions_fragment
+id player_view
 id progressBar
 id progressMessage
 id recyclerView
@@ -272,6 +273,7 @@ layout dropdown_themes
 layout fragment_camera
 layout item_gesture_recognizer_result
 layout item_training_folder
+layout playvideo
 layout progress_dialog
 layout reusable_top_ui
 layout test_progress_dialog_btn

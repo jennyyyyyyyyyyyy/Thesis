@@ -1,558 +1,562 @@
 [
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_dev_info.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\dev_info.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_ap_two_audio.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_two_audio.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_sign_in.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_sign_in.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_dialog_training_gesture_type.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\dialog_training_gesture_type.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_training_camera1.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_training_camera1.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_home_page.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_home_page.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_with_border1_white_radius25.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\with_border1_white_radius25.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_text_to_fsl.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_text_to_fsl.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_about_us.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\about_us.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_ic_image.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\ic_image.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_add_video_text_to_fsl1.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_add_video_text_to_fsl1.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_ap_one_start.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_one_start.xml"
     },
     {
-        "merged": "thesis.filconnected.app-merged_res-59:/layout_activity_main.xml.flat",
-        "source": "thesis.filconnected.app-main-61:/layout/activity_main.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_ap_one.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_ap_one.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-ldpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-ldpi\\ic_launcher.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_no_border_white_bg_10radius.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\no_border_white_bg_10radius.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_fragment_camera.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\fragment_camera.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_dialog_confirm_delete.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\dialog_confirm_delete.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_fragment_camera.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\fragment_camera.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_adriano.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\adriano.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_border_black_50r.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\border_black_50r.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_upload_video_adapter.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_upload_video_adapter.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-ldpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-ldpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_with_border1_white_radius10.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\with_border1_white_radius10.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_maintenance.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\maintenance.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_file.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\file.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_dialog_homepage_menu.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\dialog_homepage_menu.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_test.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\test.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_ap_two_restart.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_two_restart.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_welcome_admin.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_welcome_admin.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_admin_icon_selection.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\admin_icon_selection.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_edit.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\edit.webp"
+        "merged": "thesis.filconnected.app-merged_res-61:/layout_playvideo.xml.flat",
+        "source": "thesis.filconnected.app-main-63:/layout/playvideo.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_dialog_admin_logout.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\dialog_admin_logout.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_upload_video.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_upload_video.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_capture_framework_bg.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\capture_framework_bg.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_ap_triangle_shape_up.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\ap_triangle_shape_up.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_training_camera1.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_training_camera1.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_training.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_training.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_ap_two.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_ap_two.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_logo.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\logo.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\font_extrabold.ttf.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\font\\extrabold.ttf"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_border_white.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\border_white.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_plus.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\plus.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_main1.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_main1.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_item_training_folder.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\item_training_folder.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_dialog_admin_logout.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\dialog_admin_logout.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_delete.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\delete.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_test.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\test.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_box_border.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\box_border.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_progress_dialog.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\progress_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_border_black_50r.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\border_black_50r.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_model_update_border.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\model_update_border.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\navigation\\nav_graph.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_add_plus.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\add_plus.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_text_to_fsl.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_text_to_fsl.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_dialog_training_dynamic_gesture_label.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\dialog_training_dynamic_gesture_label.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_category_radius.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\category_radius.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_add_video_text_to_fsl.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_add_video_text_to_fsl.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_bea.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\bea.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_menu_when_pressed_button.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\menu_when_pressed_button.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\font_semibold.ttf.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\font\\semibold.ttf"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_main1.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_main1.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_delete_admin.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\delete_admin.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_gg.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\gg.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_sign_up_success.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_sign_up_success.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_delete_admin.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\delete_admin.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_gg.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\gg.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_image.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\image.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_send_grey.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\send_grey.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_dialog_training_static_gesture_label.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\dialog_training_static_gesture_label.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_video.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\video.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_add_video_text_to_fsl1.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_add_video_text_to_fsl1.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_dialog_training_gesture_type.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\dialog_training_gesture_type.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_app_three.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_app_three.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_add_video_text_to_fsl.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_add_video_text_to_fsl.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\font_italic.ttf.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\font\\italic.ttf"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_upload_video.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_upload_video.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_playvideo.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\playvideo.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_with_border1_white_radius10.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\with_border1_white_radius10.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_send_radius.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\send_radius.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_training_camera.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_training_camera.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_ap_one.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_ap_one.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_dropdown_themes.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\dropdown_themes.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_logout.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\logout.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_text_icon.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\text_icon.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_ap_three_delete.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\ap_three_delete.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_start.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_start.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_fsl_to_text.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_fsl_to_text.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_send_border.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\send_border.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_app_three.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_app_three.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_ap_two.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_ap_two.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_misa.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\misa.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\font_bold.ttf.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\font\\bold.ttf"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_reusable_top_ui.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\reusable_top_ui.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_border.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\border.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_admin_icon_selection.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\admin_icon_selection.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_delete.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\delete.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_send_grey.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\send_grey.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_with_border1_white_radius10_grey.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\with_border1_white_radius10_grey.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\font_italic.ttf.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\font\\italic.ttf"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_text_to_fsl1.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_text_to_fsl1.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_test_progress_dialog_btn.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\test_progress_dialog_btn.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_collect_data_dialog_nextbtn.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\collect_data_dialog_nextbtn.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_reusable_top_ui.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\reusable_top_ui.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_send_black.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\send_black.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_with_border1_white_radius25.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\with_border1_white_radius25.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_training1.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_training1.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_menu.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\menu.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\font_extrabold.ttf.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\font\\extrabold.ttf"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_welcome.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\welcome.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_img.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\img.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_audio.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\audio.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_training_camera.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_training_camera.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_arrow.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\arrow.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_logout.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\logout.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_maintenance.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\maintenance.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_about_us.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\about_us.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_button_raduis_border.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\button_raduis_border.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_with_border1_white_radius10_grey.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\with_border1_white_radius10_grey.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\anim\\fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_text_to_fsl1.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_text_to_fsl1.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_dialog_menu.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\dialog_menu.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_category.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\category.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_dev_info.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\dev_info.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_model_update_border.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\model_update_border.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_file.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\file.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_send.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\send.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_send_border.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\send_border.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_dialog_training_static_gesture_label.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\dialog_training_static_gesture_label.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_text_view_for_dropdown.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\text_view_for_dropdown.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_collect_data_dialog_radius_top.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\collect_data_dialog_radius_top.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_human_figure_guide.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\human_figure_guide.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_dialog_homepage_menu.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\dialog_homepage_menu.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_item_gesture_recognizer_result.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\item_gesture_recognizer_result.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\font_bold.ttf.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\font\\bold.ttf"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_test_progress_dialog_btn.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\test_progress_dialog_btn.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_homepage_icon.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\homepage_icon.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_ap_triangle_shape_up.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\ap_triangle_shape_up.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_dropdown_themes.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\dropdown_themes.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_arrow.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\arrow.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_bea.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\bea.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_collect_data_dialog_radius.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\collect_data_dialog_radius.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_ap_two_text_to_fsl.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_two_text_to_fsl.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_audio_icon.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\audio_icon.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_send_radius.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\send_radius.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_dialog_training_dynamic_gesture_label.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\dialog_training_dynamic_gesture_label.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_item_training_folder.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\item_training_folder.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_menu_when_pressed_button.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\menu_when_pressed_button.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_image.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\image.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_ic_video.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\ic_video.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_collect_data_dialog_radius_top.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\collect_data_dialog_radius_top.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_register_success.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\register_success.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\font_semibold.ttf.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\font\\semibold.ttf"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_ap_three_audio.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_three_audio.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_menu.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\menu.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_ap_three_text_output.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\ap_three_text_output.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_fsl_to_text.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_fsl_to_text.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_register.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\register.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_training_adapter.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_training_adapter.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_about.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_about.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\font_regular.ttf.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\font\\regular.ttf"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_dev_info.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_dev_info.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_ap_triangle_shape_down.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\ap_triangle_shape_down.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_ic_image.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\ic_image.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_deluna.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\deluna.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_ap_three_audio.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\ap_three_audio.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\font_regular.ttf.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\font\\regular.ttf"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_plus_add.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\plus_add.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_about.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\about.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_welcome.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\welcome.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_dialog_training_collect_key_pose.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\dialog_training_collect_key_pose.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_man.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\man.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_training1.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_training1.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_register_success.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\register_success.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_dialog_training_collect_key_pose.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\dialog_training_collect_key_pose.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_ap_two_text_output.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_two_text_output.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_cayago.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\cayago.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_category.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\category.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_border_white.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\border_white.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_camera.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\camera.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_video.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\video.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_audio_icon.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\audio_icon.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_text_view_for_dropdown.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\text_view_for_dropdown.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_adriano.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\adriano.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_minilogo.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\minilogo.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_add_video_text_to_fsl2.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_add_video_text_to_fsl2.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_ap_one_start.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\ap_one_start.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_no_border_white_bg_10radius.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\no_border_white_bg_10radius.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_ap_two_text_to_fsl.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\ap_two_text_to_fsl.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_ap_three_delete.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_three_delete.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_dialog_training_permission.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\dialog_training_permission.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_ap_triangle_shape_down.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\ap_triangle_shape_down.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_home_page.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_home_page.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_man.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\man.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_ap_two_audio.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\ap_two_audio.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_category_radius.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\category_radius.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_speech_to_text.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_speech_to_text.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_collect_data_dialog_radius.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\collect_data_dialog_radius.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_button_raduis_border.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\button_raduis_border.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_about.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\about.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_plus.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\plus.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_dialog_menu.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\dialog_menu.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_misa.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\misa.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_training_adapter.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_training_adapter.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_upload_video_adapter.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_upload_video_adapter.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_dev_info.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_dev_info.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_homepage_icon.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\homepage_icon.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_audio.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\audio.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_cayago.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\cayago.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_collect_data_dialog_nextbtn.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\collect_data_dialog_nextbtn.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\anim_fade_in.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\anim\\fade_in.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_edit.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\edit.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_start.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_start.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_ap_three_fsl_output.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_three_fsl_output.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_ap_two_text_output.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\ap_two_text_output.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_dialog_training_permission.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\dialog_training_permission.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_speech_to_text.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_speech_to_text.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_register.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\register.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_input_adpter1.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_input_adpter1.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_capture_framework_bg.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\capture_framework_bg.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_add_plus.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\add_plus.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_box_border.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\box_border.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_add_video_text_to_fsl2.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_add_video_text_to_fsl2.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_training.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_training.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_camera.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\camera.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_ic_video.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\ic_video.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_text_icon.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\text_icon.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_img.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\img.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_item_gesture_recognizer_result.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\item_gesture_recognizer_result.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_plus_add.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\plus_add.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_deluna.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\deluna.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_input_adpter1.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_input_adpter1.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_logo.webp.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\logo.webp"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_ap_three_fsl_output.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\ap_three_fsl_output.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_send_black.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\send_black.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_activity_sign_up_success.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\activity_sign_up_success.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_send.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\send.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_ap_two_restart.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\ap_two_restart.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_ap_three_text_output.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_three_text_output.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\layout_progress_dialog.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\layout\\progress_dialog.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\drawable_minilogo.webp.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\drawable\\minilogo.webp"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_border.xml.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\border.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_dialog_confirm_delete.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\dialog_confirm_delete.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-59:\\drawable_human_figure_guide.png.flat",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-61:\\drawable\\human_figure_guide.png"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\layout_activity_welcome_admin.xml.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_welcome_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-merged_res-61:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\mipmap-mdpi\\ic_launcher_foreground.png"
     }
 ]

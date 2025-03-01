@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var selectedFileUri: Uri
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -55,6 +56,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please enter a filename", Toast.LENGTH_SHORT).show()
             }
         }
+
     }
 
     private fun openFilePicker() {
@@ -238,7 +240,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
-
     private fun deleteVideo(filename: String) {
         // First, fetch the list of existing videos to perform a case-insensitive match
         RetrofitInstance.api.listVideos().enqueue(object : Callback<ListVideosResponse> {
@@ -248,7 +249,8 @@ class MainActivity : AppCompatActivity() {
 
                     // Extract only the filenames from the URLs
                     val videoFilenames = videoUrls.map { url ->
-                        url.substringAfterLast("/") // Extract the part after the last "/"
+                        url.substringAfterLast("/")
+                            .substringBeforeLast(".")
                     }
 
                     // Perform a case-insensitive match to find the exact filename
@@ -326,25 +328,42 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
+
+
     private fun showVideo(filename: String) {
+        // Try fetching the video URL from the /getVideo API
         RetrofitInstance.api.getVideo(filename).enqueue(object : Callback<GetVideoResponse> {
             override fun onResponse(call: Call<GetVideoResponse>, response: Response<GetVideoResponse>) {
                 if (response.isSuccessful) {
-                    val videoUrl = response.body()?.url
-                    videoUrl?.let {
-                        playVideo(it)
-                    } ?: run {
-
-                        Toast.makeText(this@MainActivity, "Failed to retrieve video URL", Toast.LENGTH_SHORT).show()
+                    try {
+                        val videoUrl = response.body()?.url
+                        videoUrl?.let {
+                            // Play the video if URL is valid
+                            playVideo(it)
+                        } ?: run {
+                            // Fallback: Use the direct video URL
+                            Log.e("VIDEO_URL_ERROR", "Failed to retrieve video URL from API. Using direct URL.")
+                            val directVideoUrl = "http://157.230.49.49:3000/videos/$filename"
+                            playVideo(directVideoUrl)
+                        }
+                    } catch (e: Exception) {
+                        // Handle unexpected exceptions during parsing
+                        Log.e("PARSING_ERROR", "Failed to parse response", e)
+                        Toast.makeText(this@MainActivity, "Invalid server response", Toast.LENGTH_SHORT).show()
                     }
                 } else {
-                    Log.e("API_ERROR", "Error: ${response.message()}")
-                    Toast.makeText(this@MainActivity, "Error: ${response.message()}", Toast.LENGTH_SHORT).show()
+                    // Fallback: Use the direct video URL
+                    Log.e("API_ERROR", "Error fetching video URL from API. Using direct URL.")
+                    val directVideoUrl = "http://157.230.49.49:3000/videos/$filename"
+                    playVideo(directVideoUrl)
                 }
             }
 
             override fun onFailure(call: Call<GetVideoResponse>, t: Throwable) {
-                Toast.makeText(this@MainActivity, "Network error: ${t.message}", Toast.LENGTH_SHORT).show()
+                // Network error occurred, fallback to direct video URL
+                Log.e("NETWORK_ERROR", "Network error while fetching video URL. Using direct URL.", t)
+                val directVideoUrl = "http://157.230.49.49:3000/videos/$filename"
+                playVideo(directVideoUrl)
             }
         })
     }
@@ -353,7 +372,7 @@ class MainActivity : AppCompatActivity() {
         val videoView = findViewById<VideoView>(R.id.videoView)
         videoView.visibility = android.view.View.VISIBLE
 
-        val videoUri = Uri.parse("http://157.230.49.49:3000/$videoUrl") // Replace with your server's IP
+        val videoUri = Uri.parse(videoUrl)
         videoView.setVideoURI(videoUri)
 
         videoView.start()
@@ -363,10 +382,59 @@ class MainActivity : AppCompatActivity() {
         }
 
         videoView.setOnErrorListener { _, _, _ ->
+            Log.e("VIDEO_PLAYBACK_ERROR", "Error playing video")
             Toast.makeText(this, "Error playing video", Toast.LENGTH_SHORT).show()
             false
         }
     }
+//
+//    private fun showVideo(filename: String) {
+//        RetrofitInstance.api.getVideo(filename).enqueue(object : Callback<GetVideoResponse> {
+//            override fun onResponse(call: Call<GetVideoResponse>, response: Response<GetVideoResponse>) {
+//                if (response.isSuccessful) {
+//                    val videoUrl = response.body()?.url
+//                    videoUrl?.let {
+//                        playVideo(it)
+//                    } ?: run {
+//                        Log.e("VIDEO_URL_ERROR", "Failed to retrieve video URL")
+//                        Toast.makeText(this@MainActivity, "Failed to retrieve video URL", Toast.LENGTH_SHORT).show()
+//                    }
+//                } else {
+//                    // Log the raw response body for debugging
+//                    val errorBody = response.errorBody()?.string()
+//                    val errorMessage = "Error: ${response.message()}, Response: $errorBody"
+//                    Log.e("API_ERROR", errorMessage)
+//                    Toast.makeText(this@MainActivity, errorMessage, Toast.LENGTH_SHORT).show()
+//                }
+//            }
+//            override fun onFailure(call: Call<GetVideoResponse>, t: Throwable) {
+//                Log.e("NETWORK_ERROR", "Network error", t) // Logs the full exception
+//                val errorMessage = "Network error: ${t.message}"
+//                Toast.makeText(this@MainActivity, errorMessage, Toast.LENGTH_SHORT).show()
+//            }
+//        })
+//    }
+//
+//    private fun playVideo(videoUrl: String) {
+//        val videoView = findViewById<VideoView>(R.id.videoView)
+//        videoView.visibility = android.view.View.VISIBLE
+//
+//        val videoUri = Uri.parse("http://157.230.49.49:3000/$videoUrl") // Replace with your server's IP
+//        videoView.setVideoURI(videoUri)
+//
+//        videoView.start()
+//
+//        videoView.setOnPreparedListener { mediaPlayer ->
+//            mediaPlayer.isLooping = true
+//        }
+//
+//        videoView.setOnErrorListener { _, _, _ ->
+//            // Log an error if there is an issue playing the video
+//            Log.e("VIDEO_PLAYBACK_ERROR", "Error playing video")
+//            Toast.makeText(this, "Error playing video", Toast.LENGTH_SHORT).show()
+//            false
+//        }
+//    }
 
     private fun getRealPathFromURI(uri: Uri): String {
         val filePathColumn = arrayOf(android.provider.MediaStore.Video.Media.DATA)
@@ -377,18 +445,9 @@ class MainActivity : AppCompatActivity() {
         cursor?.close()
         return filePath ?: ""
     }
-//    private fun getRealPathFromURI(context: Context, uri: Uri): String {
-//        var fileName = "unknown_file"
-//        val cursor = context.contentResolver.query(uri, null, null, null, null)
-//        cursor?.use {
-//            if (it.moveToFirst()) {
-//                val nameIndex = it.getColumnIndex(OpenableColumns.DISPLAY_NAME)
-//                if (nameIndex != -1) {
-//                    fileName = it.getString(nameIndex)
-//                }
-//            }
-//        }
-//        return fileName
-//    }
+
+
+
+
 
 }
