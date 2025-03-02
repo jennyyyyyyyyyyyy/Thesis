@@ -5,12 +5,18 @@ import android.net.Uri
 import android.os.Bundle
 import android.provider.OpenableColumns
 import android.util.Log
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import android.widget.VideoView
+import androidx.annotation.OptIn
 import androidx.appcompat.app.AppCompatActivity
+import androidx.media3.common.MediaItem
+import androidx.media3.common.util.UnstableApi
+import androidx.media3.exoplayer.SimpleExoPlayer
+import androidx.media3.ui.PlayerView
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
 import okhttp3.RequestBody.Companion.asRequestBody
@@ -343,7 +349,7 @@ class MainActivity : AppCompatActivity() {
                         } ?: run {
                             // Fallback: Use the direct video URL
                             Log.e("VIDEO_URL_ERROR", "Failed to retrieve video URL from API. Using direct URL.")
-                            val directVideoUrl = "http://157.230.49.49:3000/videos/$filename"
+                            val directVideoUrl = "http://157.230.49.49:3000/videos/$filename.mp4"
                             playVideo(directVideoUrl)
                         }
                     } catch (e: Exception) {
@@ -354,7 +360,7 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     // Fallback: Use the direct video URL
                     Log.e("API_ERROR", "Error fetching video URL from API. Using direct URL.")
-                    val directVideoUrl = "http://157.230.49.49:3000/videos/$filename"
+                    val directVideoUrl = "http://157.230.49.49:3000/videos/$filename.mp4"
                     playVideo(directVideoUrl)
                 }
             }
@@ -362,79 +368,31 @@ class MainActivity : AppCompatActivity() {
             override fun onFailure(call: Call<GetVideoResponse>, t: Throwable) {
                 // Network error occurred, fallback to direct video URL
                 Log.e("NETWORK_ERROR", "Network error while fetching video URL. Using direct URL.", t)
-                val directVideoUrl = "http://157.230.49.49:3000/videos/$filename"
+                val directVideoUrl = "http://157.230.49.49:3000/videos/$filename.mp4"
                 playVideo(directVideoUrl)
             }
         })
     }
-
+    @OptIn(UnstableApi::class)
     private fun playVideo(videoUrl: String) {
-        val videoView = findViewById<VideoView>(R.id.videoView)
-        videoView.visibility = android.view.View.VISIBLE
+        val playerView = findViewById<PlayerView>(R.id.videoView)
 
-        val videoUri = Uri.parse(videoUrl)
-        videoView.setVideoURI(videoUri)
+        // Initialize ExoPlayer
+        val exoPlayer = SimpleExoPlayer.Builder(this).build()
+        playerView.player = exoPlayer
 
-        videoView.start()
+        // Create and set media source
+        val mediaItem = MediaItem.fromUri(videoUrl)
+        exoPlayer.setMediaItem(mediaItem)
 
-        videoView.setOnPreparedListener { mediaPlayer ->
-            mediaPlayer.isLooping = true
-        }
+        // Prepare player
+        exoPlayer.prepare()
+        exoPlayer.playWhenReady = true  // Auto-play video
 
-        videoView.setOnErrorListener { _, _, _ ->
-            Log.e("VIDEO_PLAYBACK_ERROR", "Error playing video")
-            Toast.makeText(this, "Error playing video", Toast.LENGTH_SHORT).show()
-            false
-        }
+        // Show the PlayerView when ready
+        playerView.visibility = View.VISIBLE
     }
-//
-//    private fun showVideo(filename: String) {
-//        RetrofitInstance.api.getVideo(filename).enqueue(object : Callback<GetVideoResponse> {
-//            override fun onResponse(call: Call<GetVideoResponse>, response: Response<GetVideoResponse>) {
-//                if (response.isSuccessful) {
-//                    val videoUrl = response.body()?.url
-//                    videoUrl?.let {
-//                        playVideo(it)
-//                    } ?: run {
-//                        Log.e("VIDEO_URL_ERROR", "Failed to retrieve video URL")
-//                        Toast.makeText(this@MainActivity, "Failed to retrieve video URL", Toast.LENGTH_SHORT).show()
-//                    }
-//                } else {
-//                    // Log the raw response body for debugging
-//                    val errorBody = response.errorBody()?.string()
-//                    val errorMessage = "Error: ${response.message()}, Response: $errorBody"
-//                    Log.e("API_ERROR", errorMessage)
-//                    Toast.makeText(this@MainActivity, errorMessage, Toast.LENGTH_SHORT).show()
-//                }
-//            }
-//            override fun onFailure(call: Call<GetVideoResponse>, t: Throwable) {
-//                Log.e("NETWORK_ERROR", "Network error", t) // Logs the full exception
-//                val errorMessage = "Network error: ${t.message}"
-//                Toast.makeText(this@MainActivity, errorMessage, Toast.LENGTH_SHORT).show()
-//            }
-//        })
-//    }
-//
-//    private fun playVideo(videoUrl: String) {
-//        val videoView = findViewById<VideoView>(R.id.videoView)
-//        videoView.visibility = android.view.View.VISIBLE
-//
-//        val videoUri = Uri.parse("http://157.230.49.49:3000/$videoUrl") // Replace with your server's IP
-//        videoView.setVideoURI(videoUri)
-//
-//        videoView.start()
-//
-//        videoView.setOnPreparedListener { mediaPlayer ->
-//            mediaPlayer.isLooping = true
-//        }
-//
-//        videoView.setOnErrorListener { _, _, _ ->
-//            // Log an error if there is an issue playing the video
-//            Log.e("VIDEO_PLAYBACK_ERROR", "Error playing video")
-//            Toast.makeText(this, "Error playing video", Toast.LENGTH_SHORT).show()
-//            false
-//        }
-//    }
+
 
     private fun getRealPathFromURI(uri: Uri): String {
         val filePathColumn = arrayOf(android.provider.MediaStore.Video.Media.DATA)
@@ -445,9 +403,6 @@ class MainActivity : AppCompatActivity() {
         cursor?.close()
         return filePath ?: ""
     }
-
-
-
 
 
 }

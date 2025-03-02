@@ -1,7 +1,7 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp">
     <EditText
@@ -64,11 +64,25 @@
         android:layout_height="wrap_content"
         android:text="Show Video" />
 
-    <VideoView
+    <androidx.media3.ui.PlayerView
         android:id="@+id/videoView"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:visibility="gone" />
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:use_controller="false"
+        app:surface_type="texture_view"
+        app:show_buffering="never"
+        app:keep_content_on_player_reset="true"
+    />
+
+
+    <!--    <VideoView-->
+<!--        android:id="@+id/videoView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:visibility="gone"/>-->
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

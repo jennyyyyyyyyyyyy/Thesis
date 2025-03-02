@@ -196,16 +196,12 @@
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_start.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\playvideo.xml",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\playvideo.xml"
-    },
-    {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_welcome_admin.xml",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_welcome_admin.xml"
     },
     {
-        "merged": "thesis.filconnected.app-mergeDebugResources-60:/layout/playvideo.xml",
-        "source": "thesis.filconnected.app-main-63:/layout/playvideo.xml"
+        "merged": "thesis.filconnected.app-mergeDebugResources-60:/layout/activity_main.xml",
+        "source": "thesis.filconnected.app-main-63:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_sign_up_success.xml",

@@ -8,9 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.VideoView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.media3.ui.PlayerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
@@ -56,13 +56,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView tvResult;
 
   @NonNull
-  public final VideoView videoView;
+  public final PlayerView videoView;
 
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button btnDelete,
       @NonNull Button btnListVideos, @NonNull Button btnRename, @NonNull Button btnShowVideo,
       @NonNull Button btnUpload, @NonNull EditText etCustomFilename,
       @NonNull EditText etDeleteFilename, @NonNull EditText etNewName, @NonNull EditText etOldName,
-      @NonNull EditText etShowFilename, @NonNull TextView tvResult, @NonNull VideoView videoView) {
+      @NonNull EditText etShowFilename, @NonNull TextView tvResult, @NonNull PlayerView videoView) {
     this.rootView = rootView;
     this.btnDelete = btnDelete;
     this.btnListVideos = btnListVideos;
@@ -172,7 +172,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       id = R.id.videoView;
-      VideoView videoView = ViewBindings.findChildViewById(rootView, id);
+      PlayerView videoView = ViewBindings.findChildViewById(rootView, id);
       if (videoView == null) {
         break missingId;
       }

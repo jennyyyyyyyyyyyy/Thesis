@@ -4,23 +4,6 @@
             "outputFile": "thesis.filconnected.app-mergeDebugResources-59:/values-sv/values-sv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\1a4ae1564c9dd571031dbca6ed698dcd\\transformed\\exoplayer-ui-2.18.1\\res\\values-sv\\values-sv.xml",
-                    "from": {
-                        "startLines": "54,55",
-                        "startColumns": "4,4",
-                        "startOffsets": "3346,3410",
-                        "endColumns": "63,65",
-                        "endOffsets": "3405,3471"
-                    },
-                    "to": {
-                        "startLines": "117,118",
-                        "startColumns": "4,4",
-                        "startOffsets": "9612,9676",
-                        "endColumns": "63,65",
-                        "endOffsets": "9671,9737"
-                    }
-                },
-                {
                     "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\66ce261e9426179562153566f5b83ef4\\transformed\\core-1.9.0\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2",
@@ -158,6 +141,23 @@
                         "endLines": "22,50,51,52,53,72,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,178",
                         "endColumns": "12,80,97,121,78,62,91,63,59,91,62,61,66,63,53,104,58,60,53,68,118,82,83,135,78,83,85,53,50,65,68,73,88,71,76,70,73,90,78,86,87,71,73,84,50,66,80,83,61,63,62,106,106,98,107,57,54,77",
                         "endOffsets": "930,3684,3782,3904,3983,6252,10223,10287,10347,10439,10502,10564,10631,10695,10749,10854,10913,10974,11028,11097,11216,11299,11383,11519,11598,11682,11768,11822,11873,11939,12008,12082,12171,12243,12320,12391,12465,12556,12635,12722,12810,12882,12956,13041,13092,13159,13240,13324,13386,13450,13513,13620,13727,13826,13934,13992,14047,14353"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\d07875a77130dcaeb10595678162278f\\transformed\\exoplayer-ui-2.19.0\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "54,55",
+                        "startColumns": "4,4",
+                        "startOffsets": "3346,3410",
+                        "endColumns": "63,65",
+                        "endOffsets": "3405,3471"
+                    },
+                    "to": {
+                        "startLines": "117,118",
+                        "startColumns": "4,4",
+                        "startOffsets": "9612,9676",
+                        "endColumns": "63,65",
+                        "endOffsets": "9671,9737"
                     }
                 }
             ]

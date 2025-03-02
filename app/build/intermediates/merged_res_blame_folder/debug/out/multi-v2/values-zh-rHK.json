@@ -55,23 +55,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\1a4ae1564c9dd571031dbca6ed698dcd\\transformed\\exoplayer-ui-2.18.1\\res\\values-zh-rHK\\values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "54,55",
-                        "startColumns": "4,4",
-                        "startOffsets": "2885,2947",
-                        "endColumns": "61,62",
-                        "endOffsets": "2942,3005"
-                    },
-                    "to": {
-                        "startLines": "117,118",
-                        "startColumns": "4,4",
-                        "startOffsets": "8471,8533",
-                        "endColumns": "61,62",
-                        "endOffsets": "8528,8591"
-                    }
-                },
-                {
                     "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\47a3c474602495bbe0f8677b329a55d6\\transformed\\play-services-basement-18.5.0\\res\\values-zh-rHK\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -141,6 +124,23 @@
                         "endLines": "10,14,18,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,106,107,108,109,110,111,112,113,114,115,116,119,120,121,122,123,124",
                         "endColumns": "17,12,12,69,68,69,75,74,54,60,73,73,61,60,58,64,88,85,88,62,66,64,54,73,72,60,62,51,57,46,60,55,61,56,59,55,54,62,48,52,66,66,48,60",
                         "endOffsets": "371,534,692,5695,5764,5834,5910,5985,6040,6101,6175,6249,6311,6372,6431,6496,6585,6671,6760,6823,6890,6955,7010,7084,7157,7218,7281,7891,7949,7996,8057,8113,8175,8232,8292,8348,8403,8466,8640,8693,8760,8827,8876,8937"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\d07875a77130dcaeb10595678162278f\\transformed\\exoplayer-ui-2.19.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "54,55",
+                        "startColumns": "4,4",
+                        "startOffsets": "2885,2947",
+                        "endColumns": "61,62",
+                        "endOffsets": "2942,3005"
+                    },
+                    "to": {
+                        "startLines": "117,118",
+                        "startColumns": "4,4",
+                        "startOffsets": "8471,8533",
+                        "endColumns": "61,62",
+                        "endOffsets": "8528,8591"
                     }
                 },
                 {

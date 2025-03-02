@@ -4,6 +4,23 @@
             "outputFile": "thesis.filconnected.app-mergeDebugResources-59:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\d07875a77130dcaeb10595678162278f\\transformed\\exoplayer-ui-2.19.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "54,55",
+                        "startColumns": "4,4",
+                        "startOffsets": "3223,3287",
+                        "endColumns": "63,65",
+                        "endOffsets": "3282,3348"
+                    },
+                    "to": {
+                        "startLines": "90,91",
+                        "startColumns": "4,4",
+                        "startOffsets": "6577,6641",
+                        "endColumns": "63,65",
+                        "endOffsets": "6636,6702"
+                    }
+                },
+                {
                     "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\b74b62ce6fc21a6a129ec78e228be24e\\transformed\\navigation-ui-2.5.3\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3",
@@ -52,23 +69,6 @@
                         "startOffsets": "706,810,910,1018,1102,1202,1317,1395,1470,1561,1654,1749,1843,1943,2036,2131,2225,2316,2407,2489,2592,2695,2794,2899,3003,3107,3263,7316",
                         "endColumns": "103,99,107,83,99,114,77,74,90,92,94,93,99,92,94,93,90,90,81,102,102,98,104,103,103,155,99,82",
                         "endOffsets": "805,905,1013,1097,1197,1312,1390,1465,1556,1649,1744,1838,1938,2031,2126,2220,2311,2402,2484,2587,2690,2789,2894,2998,3102,3258,3358,7394"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\1a4ae1564c9dd571031dbca6ed698dcd\\transformed\\exoplayer-ui-2.18.1\\res\\values-en-rIN\\values-en-rIN.xml",
-                    "from": {
-                        "startLines": "54,55",
-                        "startColumns": "4,4",
-                        "startOffsets": "3223,3287",
-                        "endColumns": "63,65",
-                        "endOffsets": "3282,3348"
-                    },
-                    "to": {
-                        "startLines": "90,91",
-                        "startColumns": "4,4",
-                        "startOffsets": "6577,6641",
-                        "endColumns": "63,65",
-                        "endOffsets": "6636,6702"
                     }
                 },
                 {

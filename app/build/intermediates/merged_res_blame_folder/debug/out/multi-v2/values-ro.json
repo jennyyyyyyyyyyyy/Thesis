@@ -91,13 +91,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\1a4ae1564c9dd571031dbca6ed698dcd\\transformed\\exoplayer-ui-2.18.1\\res\\values-ro\\values-ro.xml",
+                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\d07875a77130dcaeb10595678162278f\\transformed\\exoplayer-ui-2.19.0\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "56,57",
                         "startColumns": "4,4",
-                        "startOffsets": "3560,3624",
+                        "startOffsets": "3555,3619",
                         "endColumns": "63,65",
-                        "endOffsets": "3619,3685"
+                        "endOffsets": "3614,3680"
                     },
                     "to": {
                         "startLines": "120,121",

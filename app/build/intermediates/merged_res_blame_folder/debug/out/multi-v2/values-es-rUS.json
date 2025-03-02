@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\1a4ae1564c9dd571031dbca6ed698dcd\\transformed\\exoplayer-ui-2.18.1\\res\\values-es-rUS\\values-es-rUS.xml",
-                    "from": {
-                        "startLines": "54,55",
-                        "startColumns": "4,4",
-                        "startOffsets": "3317,3382",
-                        "endColumns": "64,65",
-                        "endOffsets": "3377,3443"
-                    },
-                    "to": {
-                        "startLines": "117,118",
-                        "startColumns": "4,4",
-                        "startOffsets": "9766,9831",
-                        "endColumns": "64,65",
-                        "endOffsets": "9826,9892"
-                    }
-                },
-                {
                     "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\b43f5305626a5fe354dcd55b17767461\\transformed\\media3-exoplayer-1.5.1\\res\\values-es-rUS\\values-es-rUS.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -71,6 +54,23 @@
                         "endLines": "10,14,18,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,106,107,108,109,110,111,112,113,114,115,116,119,120,121,122,123,124",
                         "endColumns": "17,12,12,85,86,72,95,95,79,67,98,98,65,68,65,70,94,94,94,70,83,75,79,97,98,65,63,52,57,47,60,64,61,65,71,63,60,65,52,64,78,78,57,69",
                         "endOffsets": "375,565,752,6523,6610,6683,6779,6875,6955,7023,7122,7221,7287,7356,7422,7493,7588,7683,7778,7849,7933,8009,8089,8187,8286,8352,8416,9138,9196,9244,9305,9370,9432,9498,9570,9634,9695,9761,9945,10010,10089,10168,10226,10296"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jenny\\.gradle\\caches\\transforms-3\\d07875a77130dcaeb10595678162278f\\transformed\\exoplayer-ui-2.19.0\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "from": {
+                        "startLines": "54,55",
+                        "startColumns": "4,4",
+                        "startOffsets": "3317,3382",
+                        "endColumns": "64,65",
+                        "endOffsets": "3377,3443"
+                    },
+                    "to": {
+                        "startLines": "117,118",
+                        "startColumns": "4,4",
+                        "startOffsets": "9766,9831",
+                        "endColumns": "64,65",
+                        "endOffsets": "9826,9892"
                     }
                 },
                 {
