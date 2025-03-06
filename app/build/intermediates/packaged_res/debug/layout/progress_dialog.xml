@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:padding="16dp"
     android:gravity="center"
-    tools:context="thesis.filconnected.admin.Training2">
+  >
 
     <!-- Progress bar -->
     <ProgressBar

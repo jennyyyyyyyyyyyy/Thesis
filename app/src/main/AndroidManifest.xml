@@ -12,24 +12,22 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-
-    <!--        for accessing the http api:not secured : usesclaertextraffic-->
     <application
-
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="FILConnectEd"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GestureRecognizer"
+        android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup">
+        <activity
+            android:name=".FastApi.Video"
+            android:exported="false" />
+
         <service
             android:name="android.speech.RecognitionService"
-            android:permission="android.permission.BIND_SPEECH_RECOGNITION" />
-
-
-<!--        App Tutorial-->
+            android:permission="android.permission.BIND_SPEECH_RECOGNITION" /> <!-- App Tutorial -->
         <activity
             android:name=".users.apptutorial.AppTwoFslToText"
             android:exported="false" />
@@ -38,42 +36,25 @@
             android:exported="false" />
         <activity
             android:name=".users.apptutorial.AppOneFslToText"
-            android:exported="false" />
-
-
-
-<!--        Admin-->
-
+            android:exported="false" /> <!-- Admin -->
         <activity
             android:name=".admin.model_version.Training"
             android:exported="false" />
-
         <activity
             android:name=".admin.model_version.TrainingCamera"
             android:exported="false" />
-
-
-
-
-
         <activity
             android:name=".admin.SignIn"
             android:exported="false" />
         <activity
             android:name=".admin.SignUpSuccess"
             android:exported="false" />
-
         <activity
             android:name=".AddVideoAdmin.UploadVideo"
             android:exported="false" />
-
         <activity
             android:name=".admin.AddVideoTextToFsl"
-            android:exported="false" />
-
-
-<!--        users-->
-
+            android:exported="false" /> <!-- users -->
         <activity
             android:name=".users.Modal"
             android:exported="false" />
@@ -89,13 +70,9 @@
         <activity
             android:name=".users.About"
             android:exported="false" />
-
         <activity
             android:name=".users.FSLtoText"
-            android:exported="true" />
-
-
-<!--both-->
+            android:exported="true" /> <!-- both -->
         <activity
             android:name=".admin.WelcomeAdmin"
             android:exported="true">
@@ -114,11 +91,8 @@
                     android:scheme="filconnected" />
             </intent-filter>
         </activity>
-
-
-
         <activity
-            android:name=".FastApi.MainActivity"
+            android:name=".both.Start"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -126,9 +100,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
     </application>
 
 </manifest>

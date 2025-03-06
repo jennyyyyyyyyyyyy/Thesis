@@ -19,7 +19,6 @@ class GestureAdapter(
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val folderName: TextView = view.findViewById(R.id.folderName)
         val btnDelete: ImageButton = view.findViewById(R.id.btnDelete)
-        val btnEdit: ImageButton = view.findViewById(R.id.btnEdit)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

@@ -23,13 +23,13 @@ public final class ActivityWelcomeAdminBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button btnManageVideos;
+
+  @NonNull
   public final LinearLayout buttonsLayout;
 
   @NonNull
   public final TextView descriptionText;
-
-  @NonNull
-  public final Button loginDropbox;
 
   @NonNull
   public final ImageButton logout;
@@ -41,13 +41,13 @@ public final class ActivityWelcomeAdminBinding implements ViewBinding {
   public final TextView welcomeText;
 
   private ActivityWelcomeAdminBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayout buttonsLayout, @NonNull TextView descriptionText,
-      @NonNull Button loginDropbox, @NonNull ImageButton logout, @NonNull Button registerBtn,
+      @NonNull Button btnManageVideos, @NonNull LinearLayout buttonsLayout,
+      @NonNull TextView descriptionText, @NonNull ImageButton logout, @NonNull Button registerBtn,
       @NonNull TextView welcomeText) {
     this.rootView = rootView;
+    this.btnManageVideos = btnManageVideos;
     this.buttonsLayout = buttonsLayout;
     this.descriptionText = descriptionText;
-    this.loginDropbox = loginDropbox;
     this.logout = logout;
     this.registerBtn = registerBtn;
     this.welcomeText = welcomeText;
@@ -80,6 +80,12 @@ public final class ActivityWelcomeAdminBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnManageVideos;
+      Button btnManageVideos = ViewBindings.findChildViewById(rootView, id);
+      if (btnManageVideos == null) {
+        break missingId;
+      }
+
       id = R.id.buttons_layout;
       LinearLayout buttonsLayout = ViewBindings.findChildViewById(rootView, id);
       if (buttonsLayout == null) {
@@ -89,12 +95,6 @@ public final class ActivityWelcomeAdminBinding implements ViewBinding {
       id = R.id.description_text;
       TextView descriptionText = ViewBindings.findChildViewById(rootView, id);
       if (descriptionText == null) {
-        break missingId;
-      }
-
-      id = R.id.login_dropbox;
-      Button loginDropbox = ViewBindings.findChildViewById(rootView, id);
-      if (loginDropbox == null) {
         break missingId;
       }
 
@@ -116,8 +116,8 @@ public final class ActivityWelcomeAdminBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityWelcomeAdminBinding((ConstraintLayout) rootView, buttonsLayout,
-          descriptionText, loginDropbox, logout, registerBtn, welcomeText);
+      return new ActivityWelcomeAdminBinding((ConstraintLayout) rootView, btnManageVideos,
+          buttonsLayout, descriptionText, logout, registerBtn, welcomeText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

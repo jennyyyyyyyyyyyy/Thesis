@@ -24,16 +24,12 @@ public final class ItemTrainingFolderBinding implements ViewBinding {
   public final ImageButton btnDelete;
 
   @NonNull
-  public final ImageButton btnEdit;
-
-  @NonNull
   public final TextView folderName;
 
   private ItemTrainingFolderBinding(@NonNull LinearLayout rootView, @NonNull ImageButton btnDelete,
-      @NonNull ImageButton btnEdit, @NonNull TextView folderName) {
+      @NonNull TextView folderName) {
     this.rootView = rootView;
     this.btnDelete = btnDelete;
-    this.btnEdit = btnEdit;
     this.folderName = folderName;
   }
 
@@ -70,19 +66,13 @@ public final class ItemTrainingFolderBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btnEdit;
-      ImageButton btnEdit = ViewBindings.findChildViewById(rootView, id);
-      if (btnEdit == null) {
-        break missingId;
-      }
-
       id = R.id.folderName;
       TextView folderName = ViewBindings.findChildViewById(rootView, id);
       if (folderName == null) {
         break missingId;
       }
 
-      return new ItemTrainingFolderBinding((LinearLayout) rootView, btnDelete, btnEdit, folderName);
+      return new ItemTrainingFolderBinding((LinearLayout) rootView, btnDelete, folderName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

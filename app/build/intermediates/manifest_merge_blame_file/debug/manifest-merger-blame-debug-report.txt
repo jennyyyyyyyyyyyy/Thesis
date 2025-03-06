@@ -38,353 +38,351 @@
 22        android:protectionLevel="signature" />
 22-->[androidx.core:core:1.9.0] C:\Users\jenny\.gradle\caches\transforms-3\66ce261e9426179562153566f5b83ef4\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 23
-24    <uses-permission android:name="thesis.filconnected.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for accessing the http api:not secured : usesclaertextraffic -->
+24    <uses-permission android:name="thesis.filconnected.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 24-->[androidx.core:core:1.9.0] C:\Users\jenny\.gradle\caches\transforms-3\66ce261e9426179562153566f5b83ef4\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 24-->[androidx.core:core:1.9.0] C:\Users\jenny\.gradle\caches\transforms-3\66ce261e9426179562153566f5b83ef4\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-25    <application
-25-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:17:5-132:19
-26        android:allowBackup="true"
-26-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:20:9-35
-27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.9.0] C:\Users\jenny\.gradle\caches\transforms-3\66ce261e9426179562153566f5b83ef4\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-28        android:debuggable="true"
-29        android:extractNativeLibs="false"
-30        android:icon="@mipmap/ic_launcher"
-30-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:21:9-43
-31        android:label="FILConnectEd"
-31-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:22:9-37
-32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:23:9-54
-33        android:supportsRtl="true"
-33-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:24:9-35
-34        android:testOnly="true"
-35        android:theme="@style/Theme.GestureRecognizer"
-35-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:25:9-55
-36        android:usesCleartextTraffic="true" >
-36-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:19:9-44
-37        <service
-37-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:27:9-29:79
-38            android:name="android.speech.RecognitionService"
-38-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:28:13-61
-39            android:permission="android.permission.BIND_SPEECH_RECOGNITION" />
-39-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:29:13-76
-40
-41        <!-- App Tutorial -->
-42        <activity
-42-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:33:9-35:40
-43            android:name="thesis.filconnected.users.apptutorial.AppTwoFslToText"
-43-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:34:13-62
-44            android:exported="false" />
-44-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:35:13-37
+25
+26    <application
+26-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:15:5-103:19
+27        android:allowBackup="true"
+27-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:16:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] C:\Users\jenny\.gradle\caches\transforms-3\66ce261e9426179562153566f5b83ef4\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:17:9-43
+32        android:label="FILConnectEd"
+32-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:18:9-37
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:19:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:20:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.GestureRecognizer"
+36-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:21:9-55
+37        android:usesCleartextTraffic="true" >
+37-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:22:9-44
+38        <activity
+38-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:24:9-26:40
+39            android:name="thesis.filconnected.FastApi.Video"
+39-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:25:13-42
+40            android:exported="false" />
+40-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:26:13-37
+41
+42        <service
+42-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:28:9-30:79
+43            android:name="android.speech.RecognitionService"
+43-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:29:13-61
+44            android:permission="android.permission.BIND_SPEECH_RECOGNITION" /> <!-- App Tutorial -->
+44-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:30:13-76
 45        <activity
-45-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:36:9-38:40
-46            android:name="thesis.filconnected.users.apptutorial.AppThreeTextToFsl"
-46-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:37:13-64
+45-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:31:9-33:40
+46            android:name="thesis.filconnected.users.apptutorial.AppTwoFslToText"
+46-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:32:13-62
 47            android:exported="false" />
-47-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:38:13-37
+47-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:33:13-37
 48        <activity
-48-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:39:9-41:40
-49            android:name="thesis.filconnected.users.apptutorial.AppOneFslToText"
-49-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:40:13-62
+48-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:34:9-36:40
+49            android:name="thesis.filconnected.users.apptutorial.AppThreeTextToFsl"
+49-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:35:13-64
 50            android:exported="false" />
-50-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:41:13-37
-51
-52        <!-- Admin -->
-53
+50-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:36:13-37
+51        <activity
+51-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:37:9-39:40
+52            android:name="thesis.filconnected.users.apptutorial.AppOneFslToText"
+52-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:38:13-62
+53            android:exported="false" /> <!-- Admin -->
+53-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:39:13-37
 54        <activity
-54-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:47:9-49:40
+54-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:40:9-42:40
 55            android:name="thesis.filconnected.admin.model_version.Training"
-55-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:48:13-57
+55-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:41:13-57
 56            android:exported="false" />
-56-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:49:13-37
+56-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:42:13-37
 57        <activity
-57-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:51:9-53:40
+57-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:43:9-45:40
 58            android:name="thesis.filconnected.admin.model_version.TrainingCamera"
-58-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:52:13-63
+58-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:44:13-63
 59            android:exported="false" />
-59-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:53:13-37
+59-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:45:13-37
 60        <activity
-60-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:59:9-61:40
+60-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:46:9-48:40
 61            android:name="thesis.filconnected.admin.SignIn"
-61-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:60:13-41
+61-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:47:13-41
 62            android:exported="false" />
-62-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:61:13-37
+62-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:48:13-37
 63        <activity
-63-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:62:9-64:40
+63-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:49:9-51:40
 64            android:name="thesis.filconnected.admin.SignUpSuccess"
-64-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:63:13-48
+64-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:50:13-48
 65            android:exported="false" />
-65-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:64:13-37
+65-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:51:13-37
 66        <activity
-66-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:66:9-68:40
+66-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:52:9-54:40
 67            android:name="thesis.filconnected.AddVideoAdmin.UploadVideo"
-67-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:67:13-54
+67-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:53:13-54
 68            android:exported="false" />
-68-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:68:13-37
+68-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:54:13-37
 69        <activity
-69-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:70:9-72:40
+69-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:55:9-57:40
 70            android:name="thesis.filconnected.admin.AddVideoTextToFsl"
-70-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:71:13-52
-71            android:exported="false" />
-71-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:72:13-37
-72
-73        <!-- users -->
-74
+70-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:56:13-52
+71            android:exported="false" /> <!-- users -->
+71-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:57:13-37
+72        <activity
+72-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:58:9-60:40
+73            android:name="thesis.filconnected.users.Modal"
+73-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:59:13-40
+74            android:exported="false" />
+74-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:60:13-37
 75        <activity
-75-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:77:9-79:40
-76            android:name="thesis.filconnected.users.Modal"
-76-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:78:13-40
+75-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:61:9-63:40
+76            android:name="thesis.filconnected.users.TextToFsl"
+76-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:62:13-44
 77            android:exported="false" />
-77-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:79:13-37
+77-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:63:13-37
 78        <activity
-78-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:80:9-82:40
-79            android:name="thesis.filconnected.users.TextToFsl"
-79-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:81:13-44
+78-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:64:9-66:40
+79            android:name="thesis.filconnected.users.HomePage"
+79-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:65:13-43
 80            android:exported="false" />
-80-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:82:13-37
+80-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:66:13-37
 81        <activity
-81-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:83:9-85:40
-82            android:name="thesis.filconnected.users.HomePage"
-82-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:84:13-43
+81-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:67:9-69:40
+82            android:name="thesis.filconnected.users.DevInfo"
+82-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:68:13-42
 83            android:exported="false" />
-83-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:85:13-37
+83-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:69:13-37
 84        <activity
-84-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:86:9-88:40
-85            android:name="thesis.filconnected.users.DevInfo"
-85-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:87:13-42
+84-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:70:9-72:40
+85            android:name="thesis.filconnected.users.About"
+85-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:71:13-40
 86            android:exported="false" />
-86-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:88:13-37
+86-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:72:13-37
 87        <activity
-87-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:89:9-91:40
-88            android:name="thesis.filconnected.users.About"
-88-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:90:13-40
-89            android:exported="false" />
-89-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:91:13-37
+87-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:73:9-75:39
+88            android:name="thesis.filconnected.users.FSLtoText"
+88-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:74:13-44
+89            android:exported="true" /> <!-- both -->
+89-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:75:13-36
 90        <activity
-90-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:93:9-95:39
-91            android:name="thesis.filconnected.users.FSLtoText"
-91-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:94:13-44
-92            android:exported="true" />
-92-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:95:13-36
-93
-94        <!-- both -->
-95        <activity
-95-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:99:9-116:20
-96            android:name="thesis.filconnected.admin.WelcomeAdmin"
-96-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:100:13-47
-97            android:exported="true" >
-97-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:101:13-36
-98            <meta-data
-98-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:102:13-104:40
-99                android:name="android.notch_support"
-99-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:103:17-53
-100                android:value="true" />
-100-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:104:17-37
-101
-102            <intent-filter>
-102-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:106:13-115:29
-103                <action android:name="android.intent.action.VIEW" />
-103-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:107:17-69
-103-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:107:25-66
-104
-105                <category android:name="android.intent.category.DEFAULT" />
-105-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:109:17-76
-105-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:109:27-73
-106                <category android:name="android.intent.category.BROWSABLE" />
-106-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:110:17-78
-106-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:110:27-75
-107
-108                <data
-108-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:112:17-114:53
-109                    android:host="oauth2redirect"
-109-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:113:21-50
-110                    android:scheme="filconnected" />
-110-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:114:21-50
-111            </intent-filter>
-112        </activity>
-113        <activity
-113-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:120:9-128:20
-114            android:name="thesis.filconnected.FastApi.MainActivity"
-114-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:121:13-49
-115            android:exported="true" >
-115-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:122:13-36
-116            <intent-filter>
-116-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:123:13-127:29
-117                <action android:name="android.intent.action.MAIN" />
-117-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:124:17-69
-117-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:124:25-66
-118
-119                <category android:name="android.intent.category.LAUNCHER" />
-119-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:126:17-77
-119-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:126:27-74
-120            </intent-filter>
-121        </activity>
-122
-123        <service
-123-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:25:9-34:19
-124            android:name="androidx.camera.core.impl.MetadataHolderService"
-124-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:26:13-75
-125            android:enabled="false"
-125-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:27:13-36
-126            android:exported="false" >
-126-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:28:13-37
-127            <meta-data
-127-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:31:13-33:89
-128                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-128-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:32:17-103
-129                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-129-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:33:17-86
-130        </service>
-131
-132        <uses-library
-132-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:23:9-25:40
-133            android:name="androidx.window.extensions"
-133-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:24:13-54
-134            android:required="false" />
-134-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:25:13-37
-135        <uses-library
-135-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:26:9-28:40
-136            android:name="androidx.window.sidecar"
-136-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:27:13-51
-137            android:required="false" />
-137-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:28:13-37
-138
-139        <activity
-139-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
-140            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-140-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
-141            android:excludeFromRecents="true"
-141-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
-142            android:exported="false"
-142-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
-143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-143-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
-144        <!--
-145            Service handling Google Sign-In user revocation. For apps that do not integrate with
-146            Google Sign-In, this service will never be started.
-147        -->
-148        <service
-148-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
-149            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-149-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
-150            android:exported="true"
-150-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
-151            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-151-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
-152            android:visibleToInstantApps="true" />
-152-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+90-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:76:9-93:20
+91            android:name="thesis.filconnected.admin.WelcomeAdmin"
+91-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:77:13-47
+92            android:exported="true" >
+92-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:78:13-36
+93            <meta-data
+93-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:79:13-81:40
+94                android:name="android.notch_support"
+94-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:80:17-53
+95                android:value="true" />
+95-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:81:17-37
+96
+97            <intent-filter>
+97-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:83:13-92:29
+98                <action android:name="android.intent.action.VIEW" />
+98-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:84:17-69
+98-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:84:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:86:17-76
+100-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:86:27-73
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:87:17-78
+101-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:87:27-75
+102
+103                <data
+103-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:89:17-91:53
+104                    android:host="oauth2redirect"
+104-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:90:21-50
+105                    android:scheme="filconnected" />
+105-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:91:21-50
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:94:9-102:20
+109            android:name="thesis.filconnected.both.Start"
+109-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:95:13-39
+110            android:exported="true" >
+110-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:96:13-36
+111            <intent-filter>
+111-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:97:13-101:29
+112                <action android:name="android.intent.action.MAIN" />
+112-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:98:17-69
+112-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:98:25-66
+113
+114                <category android:name="android.intent.category.LAUNCHER" />
+114-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:100:17-77
+114-->C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:100:27-74
+115            </intent-filter>
+116        </activity>
+117
+118        <service
+118-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:25:9-34:19
+119            android:name="androidx.camera.core.impl.MetadataHolderService"
+119-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:26:13-75
+120            android:enabled="false"
+120-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:27:13-36
+121            android:exported="false" >
+121-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:28:13-37
+122            <meta-data
+122-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:31:13-33:89
+123                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+123-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:32:17-103
+124                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+124-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\jenny\.gradle\caches\transforms-3\2863485c9c5d6453bec3d024702110fd\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:33:17-86
+125        </service>
+126
+127        <uses-library
+127-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:23:9-25:40
+128            android:name="androidx.window.extensions"
+128-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:24:13-54
+129            android:required="false" />
+129-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:25:13-37
+130        <uses-library
+130-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:26:9-28:40
+131            android:name="androidx.window.sidecar"
+131-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:27:13-51
+132            android:required="false" />
+132-->[androidx.window:window:1.1.0-alpha03] C:\Users\jenny\.gradle\caches\transforms-3\50efbe7073408277916603062cf9896d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:28:13-37
+133
+134        <activity
+134-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+135            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+135-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+136            android:excludeFromRecents="true"
+136-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+139        <!--
+140            Service handling Google Sign-In user revocation. For apps that do not integrate with
+141            Google Sign-In, this service will never be started.
+142        -->
+143        <service
+143-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+144            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+144-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+145            android:exported="true"
+145-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+146            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+146-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+147            android:visibleToInstantApps="true" />
+147-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\jenny\.gradle\caches\transforms-3\8629d9986c9e456f948c794474ab597a\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+148
+149        <activity
+149-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jenny\.gradle\caches\transforms-3\1687adde3f9ed71f129a4395831e59c8\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+150            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+150-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jenny\.gradle\caches\transforms-3\1687adde3f9ed71f129a4395831e59c8\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jenny\.gradle\caches\transforms-3\1687adde3f9ed71f129a4395831e59c8\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jenny\.gradle\caches\transforms-3\1687adde3f9ed71f129a4395831e59c8\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 153
-154        <activity
-154-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jenny\.gradle\caches\transforms-3\1687adde3f9ed71f129a4395831e59c8\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-155-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jenny\.gradle\caches\transforms-3\1687adde3f9ed71f129a4395831e59c8\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-156            android:exported="false"
-156-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jenny\.gradle\caches\transforms-3\1687adde3f9ed71f129a4395831e59c8\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-157-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jenny\.gradle\caches\transforms-3\1687adde3f9ed71f129a4395831e59c8\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-158
-159        <meta-data
-159-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\jenny\.gradle\caches\transforms-3\47a3c474602495bbe0f8677b329a55d6\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
-160            android:name="com.google.android.gms.version"
-160-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\jenny\.gradle\caches\transforms-3\47a3c474602495bbe0f8677b329a55d6\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
-161            android:value="@integer/google_play_services_version" />
-161-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\jenny\.gradle\caches\transforms-3\47a3c474602495bbe0f8677b329a55d6\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
-162
-163        <provider
-163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-164            android:name="androidx.startup.InitializationProvider"
-164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-165            android:authorities="thesis.filconnected.androidx-startup"
-165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-166            android:exported="false" >
-166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-167            <meta-data
-167-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-168                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-168-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-169                android:value="androidx.startup" />
-169-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-170            <meta-data
-170-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jenny\.gradle\caches\transforms-3\481cc3b33c502d731625f9d2af000208\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-171                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-171-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jenny\.gradle\caches\transforms-3\481cc3b33c502d731625f9d2af000208\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-172                android:value="androidx.startup" />
-172-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jenny\.gradle\caches\transforms-3\481cc3b33c502d731625f9d2af000208\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-173            <meta-data
-173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-174                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-175                android:value="androidx.startup" />
-175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-176        </provider>
-177
-178        <receiver
-178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-179            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-180            android:directBootAware="false"
-180-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-181            android:enabled="true"
-181-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-182            android:exported="true"
-182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-183            android:permission="android.permission.DUMP" >
-183-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-184            <intent-filter>
-184-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-185                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-186            </intent-filter>
-187            <intent-filter>
-187-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-188                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-189            </intent-filter>
-190            <intent-filter>
-190-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-191                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-192            </intent-filter>
-193            <intent-filter>
-193-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-194                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-194-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-194-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-195            </intent-filter>
-196        </receiver>
-197
-198        <service
-198-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
-199            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-199-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
-200            android:exported="false" >
-200-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
-201            <meta-data
-201-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
-202                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-202-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
-203                android:value="cct" />
-203-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+154        <meta-data
+154-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\jenny\.gradle\caches\transforms-3\47a3c474602495bbe0f8677b329a55d6\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+155            android:name="com.google.android.gms.version"
+155-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\jenny\.gradle\caches\transforms-3\47a3c474602495bbe0f8677b329a55d6\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+156            android:value="@integer/google_play_services_version" />
+156-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\jenny\.gradle\caches\transforms-3\47a3c474602495bbe0f8677b329a55d6\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+157
+158        <provider
+158-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+159            android:name="androidx.startup.InitializationProvider"
+159-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+160            android:authorities="thesis.filconnected.androidx-startup"
+160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+161            android:exported="false" >
+161-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+162            <meta-data
+162-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+163                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+164                android:value="androidx.startup" />
+164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jenny\.gradle\caches\transforms-3\df9c3a671a3a78379a4be9cba6975be7\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+165            <meta-data
+165-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jenny\.gradle\caches\transforms-3\481cc3b33c502d731625f9d2af000208\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+166                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+166-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jenny\.gradle\caches\transforms-3\481cc3b33c502d731625f9d2af000208\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+167                android:value="androidx.startup" />
+167-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\jenny\.gradle\caches\transforms-3\481cc3b33c502d731625f9d2af000208\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+168            <meta-data
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+169                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+170                android:value="androidx.startup" />
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+171        </provider>
+172
+173        <receiver
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+174            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+175            android:directBootAware="false"
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+176            android:enabled="true"
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+177            android:exported="true"
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+178            android:permission="android.permission.DUMP" >
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+179            <intent-filter>
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+180                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+181            </intent-filter>
+182            <intent-filter>
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+183                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+183-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+183-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+184            </intent-filter>
+185            <intent-filter>
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+186                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+186-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+187            </intent-filter>
+188            <intent-filter>
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+189                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\jenny\.gradle\caches\transforms-3\298f106044756eeb92a004614c010c8e\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+190            </intent-filter>
+191        </receiver>
+192
+193        <service
+193-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
+194            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+194-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
+195            android:exported="false" >
+195-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
+196            <meta-data
+196-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
+197                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+197-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
+198                android:value="cct" />
+198-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\33af3e56a582b965c4862567956e4c63\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+199        </service>
+200        <service
+200-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
+201            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+201-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:27:13-117
+202            android:exported="false"
+202-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:28:13-37
+203            android:permission="android.permission.BIND_JOB_SERVICE" >
+203-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:29:13-69
 204        </service>
-205        <service
-205-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
-206            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-206-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:27:13-117
-207            android:exported="false"
-207-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:28:13-37
-208            android:permission="android.permission.BIND_JOB_SERVICE" >
-208-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:29:13-69
-209        </service>
+205
+206        <receiver
+206-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:32:9-34:40
+207            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+207-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:33:13-132
+208            android:exported="false" />
+208-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:34:13-37
+209    </application>
 210
-211        <receiver
-211-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:32:9-34:40
-212            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-212-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:33:13-132
-213            android:exported="false" />
-213-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\jenny\.gradle\caches\transforms-3\1a5f8dbcb00356b872381a896e191bca\transformed\transport-runtime-3.1.0\AndroidManifest.xml:34:13-37
-214    </application>
-215
-216</manifest>
+211</manifest>

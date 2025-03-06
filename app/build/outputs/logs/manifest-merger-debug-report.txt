@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:2:1-134:12
-INJECTED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:2:1-134:12
-INJECTED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:2:1-134:12
-INJECTED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:2:1-134:12
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:2:1-105:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\jenny\.gradle\caches\transforms-3\61b883c6c0a68fd5a02f242d16c8a508\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] C:\Users\jenny\.gradle\caches\transforms-3\27ca0f2819d4cdc05bd2ddcb8c484dc2\transformed\navigation-ui-ktx-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\jenny\.gradle\caches\transforms-3\b74b62ce6fc21a6a129ec78e228be24e\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
@@ -160,8 +160,8 @@ ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src
 	android:name
 		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:13:22-78
 application
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:17:5-132:19
-INJECTED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:17:5-132:19
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:15:5-103:19
+INJECTED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:15:5-103:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\jenny\.gradle\caches\transforms-3\4bff74e502b396a77b1d17b38af6372a\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\jenny\.gradle\caches\transforms-3\4bff74e502b396a77b1d17b38af6372a\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\jenny\.gradle\caches\transforms-3\fd9fb02d267cb6b776fe92108dcc22f5\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -203,165 +203,171 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\jenny\.gradle\caches\transforms-3\66ce261e9426179562153566f5b83ef4\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:24:9-35
-	android:label
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:22:9-37
-	tools:ignore
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:26:9-35
-	android:roundIcon
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:23:9-54
-	android:icon
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:21:9-43
-	android:allowBackup
 		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:18:9-37
+	tools:ignore
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:23:9-35
+	android:roundIcon
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:19:9-54
+	android:icon
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:25:9-55
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:21:9-55
 	android:usesCleartextTraffic
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:19:9-44
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:22:9-44
+activity#thesis.filconnected.FastApi.Video
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:25:13-42
 service#android.speech.RecognitionService
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:27:9-29:79
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:28:9-30:79
 	android:permission
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:29:13-76
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:30:13-76
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:28:13-61
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:29:13-61
 activity#thesis.filconnected.users.apptutorial.AppTwoFslToText
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:33:9-35:40
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:34:13-62
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:32:13-62
 activity#thesis.filconnected.users.apptutorial.AppThreeTextToFsl
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:36:9-38:40
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:37:13-64
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:35:13-64
 activity#thesis.filconnected.users.apptutorial.AppOneFslToText
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:39:9-41:40
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:41:13-37
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:40:13-62
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:38:13-62
 activity#thesis.filconnected.admin.model_version.Training
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:47:9-49:40
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:48:13-57
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:41:13-57
 activity#thesis.filconnected.admin.model_version.TrainingCamera
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:51:9-53:40
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:43:9-45:40
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:53:13-37
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:52:13-63
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:44:13-63
 activity#thesis.filconnected.admin.SignIn
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:59:9-61:40
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:46:9-48:40
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:61:13-37
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:60:13-41
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:47:13-41
 activity#thesis.filconnected.admin.SignUpSuccess
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:62:9-64:40
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:49:9-51:40
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:64:13-37
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:63:13-48
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:50:13-48
 activity#thesis.filconnected.AddVideoAdmin.UploadVideo
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:66:9-68:40
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:52:9-54:40
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:68:13-37
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:67:13-54
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:53:13-54
 activity#thesis.filconnected.admin.AddVideoTextToFsl
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:55:9-57:40
+	android:exported
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:56:13-52
+activity#thesis.filconnected.users.Modal
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:58:9-60:40
+	android:exported
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:59:13-40
+activity#thesis.filconnected.users.TextToFsl
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:61:9-63:40
+	android:exported
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:62:13-44
+activity#thesis.filconnected.users.HomePage
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:64:9-66:40
+	android:exported
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:65:13-43
+activity#thesis.filconnected.users.DevInfo
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:67:9-69:40
+	android:exported
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:68:13-42
+activity#thesis.filconnected.users.About
 ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:70:9-72:40
 	android:exported
 		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:72:13-37
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:71:13-52
-activity#thesis.filconnected.users.Modal
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:77:9-79:40
-	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:79:13-37
-	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:78:13-40
-activity#thesis.filconnected.users.TextToFsl
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:80:9-82:40
-	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:82:13-37
-	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:81:13-44
-activity#thesis.filconnected.users.HomePage
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:83:9-85:40
-	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:85:13-37
-	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:84:13-43
-activity#thesis.filconnected.users.DevInfo
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:86:9-88:40
-	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:88:13-37
-	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:87:13-42
-activity#thesis.filconnected.users.About
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:89:9-91:40
-	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:91:13-37
-	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:90:13-40
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:71:13-40
 activity#thesis.filconnected.users.FSLtoText
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:93:9-95:39
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:73:9-75:39
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:95:13-36
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:75:13-36
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:94:13-44
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:74:13-44
 activity#thesis.filconnected.admin.WelcomeAdmin
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:99:9-116:20
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:76:9-93:20
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:101:13-36
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:78:13-36
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:100:13-47
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:77:13-47
 meta-data#android.notch_support
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:102:13-104:40
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:79:13-81:40
 	android:value
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:104:17-37
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:81:17-37
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:103:17-53
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:80:17-53
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:oauth2redirect+data:scheme:filconnected
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:106:13-115:29
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:83:13-92:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:107:17-69
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:84:17-69
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:107:25-66
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:84:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:109:17-76
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:86:17-76
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:109:27-73
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:86:27-73
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:110:17-78
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:87:17-78
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:110:27-75
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:87:27-75
 data
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:112:17-114:53
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:89:17-91:53
 	android:host
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:113:21-50
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:90:21-50
 	android:scheme
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:114:21-50
-activity#thesis.filconnected.FastApi.MainActivity
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:120:9-128:20
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:91:21-50
+activity#thesis.filconnected.both.Start
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:94:9-102:20
 	android:exported
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:122:13-36
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:96:13-36
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:121:13-49
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:95:13-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:123:13-127:29
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:97:13-101:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:124:17-69
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:98:17-69
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:124:25-66
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:98:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:126:17-77
+ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:100:17-77
 	android:name
-		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:126:27-74
+		ADDED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml:100:27-74
 uses-sdk
 INJECTED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\jenny\AndroidStudioProjects\Thesis_FilConnectEd-main\app\src\main\AndroidManifest.xml

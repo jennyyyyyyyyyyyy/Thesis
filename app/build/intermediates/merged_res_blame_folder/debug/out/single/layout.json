@@ -32,12 +32,12 @@
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_training_adapter.xml"
     },
     {
-        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_training_camera.xml",
-        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_training_camera.xml"
-    },
-    {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_ap_one.xml",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_ap_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_training_camera.xml",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_training_camera.xml"
     },
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_training_camera1.xml",
@@ -88,6 +88,10 @@
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_three_audio.xml"
     },
     {
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_video.xml",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_video.xml"
+    },
+    {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_ap_two.xml",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_ap_two.xml"
     },
@@ -98,6 +102,10 @@
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\text_view_for_dropdown.xml",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\text_view_for_dropdown.xml"
+    },
+    {
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\item_video.xml",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\item_video.xml"
     },
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\ap_two_text_output.xml",
@@ -134,6 +142,10 @@
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\ap_two_text_to_fsl.xml",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\ap_two_text_to_fsl.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-60:/layout/item_training_folder.xml",
+        "source": "thesis.filconnected.app-main-63:/layout/item_training_folder.xml"
     },
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\dialog_training_dynamic_gesture_label.xml",
@@ -200,12 +212,16 @@
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_welcome_admin.xml"
     },
     {
-        "merged": "thesis.filconnected.app-mergeDebugResources-60:/layout/activity_main.xml",
-        "source": "thesis.filconnected.app-main-63:/layout/activity_main.xml"
+        "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_upload.xml",
+        "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_upload.xml"
     },
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_sign_up_success.xml",
         "source": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-main-63:\\layout\\activity_sign_up_success.xml"
+    },
+    {
+        "merged": "thesis.filconnected.app-mergeDebugResources-60:/layout/progress_dialog.xml",
+        "source": "thesis.filconnected.app-main-63:/layout/progress_dialog.xml"
     },
     {
         "merged": "C:\\Users\\jenny\\.gradle\\daemon\\8.2\\thesis.filconnected.app-mergeDebugResources-60:\\layout\\activity_main.xml",

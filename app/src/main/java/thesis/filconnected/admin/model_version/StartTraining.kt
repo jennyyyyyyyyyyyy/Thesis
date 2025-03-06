@@ -12,7 +12,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import thesis.filconnected.AddVideoAdmin.UploadVideo
+import thesis.filconnected.FastApi.Video
 import thesis.filconnected.R
 
 class StartTraining : AppCompatActivity() {
@@ -72,7 +72,7 @@ class StartTraining : AppCompatActivity() {
 
 
         btnStartTraining.setOnClickListener{
-            val intent = Intent(this, UploadVideo::class.java )
+            val intent = Intent(this, Video::class.java )
             startActivity(intent)
         }
 

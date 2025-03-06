@@ -21,7 +21,8 @@
         android:name="thesis.filconnected.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="thesis.filconnected.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for accessing the http api:not secured : usesclaertextraffic -->
+    <uses-permission android:name="thesis.filconnected.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,11 +35,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.GestureRecognizer"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="thesis.filconnected.FastApi.Video"
+            android:exported="false" />
+
         <service
             android:name="android.speech.RecognitionService"
-            android:permission="android.permission.BIND_SPEECH_RECOGNITION" />
-
-        <!-- App Tutorial -->
+            android:permission="android.permission.BIND_SPEECH_RECOGNITION" /> <!-- App Tutorial -->
         <activity
             android:name="thesis.filconnected.users.apptutorial.AppTwoFslToText"
             android:exported="false" />
@@ -47,10 +50,7 @@
             android:exported="false" />
         <activity
             android:name="thesis.filconnected.users.apptutorial.AppOneFslToText"
-            android:exported="false" />
-
-        <!-- Admin -->
-
+            android:exported="false" /> <!-- Admin -->
         <activity
             android:name="thesis.filconnected.admin.model_version.Training"
             android:exported="false" />
@@ -68,10 +68,7 @@
             android:exported="false" />
         <activity
             android:name="thesis.filconnected.admin.AddVideoTextToFsl"
-            android:exported="false" />
-
-        <!-- users -->
-
+            android:exported="false" /> <!-- users -->
         <activity
             android:name="thesis.filconnected.users.Modal"
             android:exported="false" />
@@ -89,9 +86,7 @@
             android:exported="false" />
         <activity
             android:name="thesis.filconnected.users.FSLtoText"
-            android:exported="true" />
-
-        <!-- both -->
+            android:exported="true" /> <!-- both -->
         <activity
             android:name="thesis.filconnected.admin.WelcomeAdmin"
             android:exported="true" >
@@ -111,7 +106,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="thesis.filconnected.FastApi.MainActivity"
+            android:name="thesis.filconnected.both.Start"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

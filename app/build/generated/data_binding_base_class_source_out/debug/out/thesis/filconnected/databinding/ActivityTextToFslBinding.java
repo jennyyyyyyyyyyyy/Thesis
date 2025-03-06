@@ -8,10 +8,10 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.VideoView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.media3.ui.PlayerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
@@ -36,27 +36,27 @@ public final class ActivityTextToFslBinding implements ViewBinding {
   public final LinearLayout output;
 
   @NonNull
+  public final PlayerView playerView;
+
+  @NonNull
   public final ImageButton searchButton;
 
   @NonNull
   public final TextView userTextDisplay;
 
-  @NonNull
-  public final VideoView videoView;
-
   private ActivityTextToFslBinding(@NonNull ConstraintLayout rootView,
       @NonNull ReusableTopUiBinding customToolbar, @NonNull ImageView delete,
       @NonNull LinearLayout iconSection, @NonNull LinearLayout output,
-      @NonNull ImageButton searchButton, @NonNull TextView userTextDisplay,
-      @NonNull VideoView videoView) {
+      @NonNull PlayerView playerView, @NonNull ImageButton searchButton,
+      @NonNull TextView userTextDisplay) {
     this.rootView = rootView;
     this.customToolbar = customToolbar;
     this.delete = delete;
     this.iconSection = iconSection;
     this.output = output;
+    this.playerView = playerView;
     this.searchButton = searchButton;
     this.userTextDisplay = userTextDisplay;
-    this.videoView = videoView;
   }
 
   @Override
@@ -111,6 +111,12 @@ public final class ActivityTextToFslBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.playerView;
+      PlayerView playerView = ViewBindings.findChildViewById(rootView, id);
+      if (playerView == null) {
+        break missingId;
+      }
+
       id = R.id.search_button;
       ImageButton searchButton = ViewBindings.findChildViewById(rootView, id);
       if (searchButton == null) {
@@ -123,14 +129,8 @@ public final class ActivityTextToFslBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.video_view;
-      VideoView videoView = ViewBindings.findChildViewById(rootView, id);
-      if (videoView == null) {
-        break missingId;
-      }
-
       return new ActivityTextToFslBinding((ConstraintLayout) rootView, binding_customToolbar,
-          delete, iconSection, output, searchButton, userTextDisplay, videoView);
+          delete, iconSection, output, playerView, searchButton, userTextDisplay);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

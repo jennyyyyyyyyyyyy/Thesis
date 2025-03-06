@@ -15,14 +15,12 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
+import thesis.filconnected.FastApi.Video
 import thesis.filconnected.R
 import thesis.filconnected.admin.model_version.Training
 
 
 class WelcomeAdmin : AppCompatActivity() {
-
-    private val DROPBOX_APP_KEY = "jpmwkzxn46600w0"  // Your Dropbox App Key
-    private val REDIRECT_URI = "https://filconneded0.onrender.com/oauth2redirect"  // Your Redirect URI
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,10 +32,12 @@ class WelcomeAdmin : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val loginButton = findViewById<Button>(R.id.login_dropbox)
+        val btnManageVideos = findViewById<Button>(R.id.btnManageVideos)
 
-        loginButton.setOnClickListener {
-            startOAuthFlow()
+        btnManageVideos.setOnClickListener {
+            val intent =Intent(this, Video::class.java)
+            startActivity(intent)
+
         }
 
 
@@ -83,31 +83,6 @@ class WelcomeAdmin : AppCompatActivity() {
 
 
     }
-
-    private fun startOAuthFlow() {
-        // Construct the Dropbox OAuth URL to start the OAuth flow
-        val authUrl = "https://www.dropbox.com/oauth2/authorize?client_id=$DROPBOX_APP_KEY&response_type=code&redirect_uri=$REDIRECT_URI"
-        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(authUrl))
-        startActivity(browserIntent)
-    }
-
-    override fun onResume() {
-        super.onResume()
-
-        val data: Uri? = intent.data
-        if (data != null && data.scheme == "filconnected" && data.host == "oauth2redirect") { // Check for custom scheme
-            val accessToken = data.getQueryParameter("access_token") // Get access token from the URI
-            if (accessToken != null) {
-                // After getting the access token, pass it to the next activity
-                val intent = Intent(this, AddVideoTextToFsl::class.java)
-                intent.putExtra("ACCESS_TOKEN", accessToken)
-                startActivity(intent)
-            } else {
-                Toast.makeText(this, "Failed to retrieve access token", Toast.LENGTH_SHORT).show()
-            }
-        }
-    }
-
 
 
 }
