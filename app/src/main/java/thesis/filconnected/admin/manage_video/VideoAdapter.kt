@@ -1,9 +1,11 @@
 package thesis.filconnected.FastApi
 
 import VideoItem
+import android.app.Dialog
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -28,16 +30,34 @@ class VideoAdapter(
         val video = videoList[position]
         holder.tvVideoName.text = video.name
 
-        // Set up delete button click listener
         holder.btnDelete.setOnClickListener {
-            onDeleteClickListener(video.name) // Pass the video name to the callback
+            val dialogView = LayoutInflater.from(holder.itemView.context)
+                .inflate(R.layout.dialog_confirm_delete, null)
+
+            // Create the dialog
+            val dialog = Dialog(holder.itemView.context)
+            dialog.setContentView(dialogView)
+            dialog.setCancelable(false) // Prevent dismiss on outside touch
+
+            // Get the buttons from the custom dialog layout
+            val btnDelete = dialogView.findViewById<Button>(R.id.deleteBtn)
+            val btnCancel = dialogView.findViewById<Button>(R.id.cancelBtn)
+
+            btnDelete.setOnClickListener {
+                onDeleteClickListener(video.name)
+                dialog.dismiss()
+            }
+
+            btnCancel.setOnClickListener {
+                dialog.dismiss()
+            }
+
+            dialog.show()
         }
     }
 
     override fun getItemCount(): Int {
         return videoList.size
     }
-
-
 
 }

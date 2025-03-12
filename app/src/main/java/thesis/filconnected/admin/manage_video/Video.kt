@@ -2,9 +2,14 @@ package thesis.filconnected.FastApi
 
 import VideoItem
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.net.Uri
+import android.opengl.Visibility
 import android.os.Bundle
 import android.provider.OpenableColumns
+import android.view.Gravity
+import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.EditText
@@ -12,6 +17,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
@@ -22,6 +28,7 @@ import retrofit2.Callback
 import retrofit2.Response
 import java.io.File
 import thesis.filconnected.R
+import thesis.filconnected.users.TextToFsl
 
 class Video : AppCompatActivity() {
 
@@ -30,10 +37,10 @@ class Video : AppCompatActivity() {
     private lateinit var videoAdapter: VideoAdapter
     private val videoItems = mutableListOf<VideoItem>()
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_video)
-
         // Initialize RecyclerView
         recyclerView = findViewById(R.id.rvVideos)
         recyclerView.setHasFixedSize(true)
@@ -41,17 +48,25 @@ class Video : AppCompatActivity() {
 
 
         videoAdapter = VideoAdapter(videoItems) { filename ->
-            deleteVideo(filename) // Call the deleteVideo function when the delete button is clicked
+            deleteVideo(filename)
         }
         recyclerView.adapter = videoAdapter
         recyclerView.adapter = videoAdapter
 
-        // Button to add/select a video
+
         findViewById<ImageButton>(R.id.btnAdd).setOnClickListener {
-            openFilePicker()
+            val customFilename = findViewById<EditText>(R.id.etCustomFilename).text.toString().trim().lowercase()
+
+            if (customFilename.isBlank()) {
+                alertDialog()
+
+            } else {
+                openFilePicker()
+            }
         }
-        // List videos on app startup
+
         listVideos()
+
     }
 
     private fun openFilePicker() {
@@ -61,6 +76,8 @@ class Video : AppCompatActivity() {
         startActivityForResult(intent, 100)
     }
 
+
+    //after selecting a video file
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == 100 && resultCode == RESULT_OK) {
@@ -69,12 +86,13 @@ class Video : AppCompatActivity() {
                 val fileName = getFileName(uri)
 
                 Toast.makeText(this, "Selected File: $fileName", Toast.LENGTH_SHORT).show()
-
                 val uploadButton = findViewById<Button>(R.id.btnUpload)
-                uploadButton.isEnabled = true // Enable button after selecting a file
+                uploadButton.isEnabled = true
+                uploadButton.setVisibility(View.VISIBLE);
 
                 uploadButton.setOnClickListener {
                     uploadVideo(uri)
+                    uploadButton.setVisibility(View.GONE);
                 }
             }
         }
@@ -85,11 +103,6 @@ class Video : AppCompatActivity() {
         val file = File(getRealPathFromURI(fileUri))
         val customFilename = findViewById<EditText>(R.id.etCustomFilename).text.toString().trim().lowercase() // Convert to lowercase
         val uploadButton = findViewById<Button>(R.id.btnUpload)
-
-        if (customFilename.isEmpty()) {
-            showAlertDialog("Error", "Please enter a filename")
-            return
-        }
 
         val originalExtension = file.extension
         val fileNameWithExtension = "$customFilename.$originalExtension" // Filename is now case insensitive
@@ -272,4 +285,28 @@ class Video : AppCompatActivity() {
         return fileName
     }
 
+
+
+    private fun alertDialog() {
+        val dialogView = layoutInflater.inflate(R.layout.dialog_filename_empty, null)
+
+        val alertDialog = AlertDialog.Builder(this)
+            .setView(dialogView)
+            .setCancelable(true)
+            .create()
+
+        // Set transparent background to make it look custom
+        alertDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+
+        // Center the dialog
+        alertDialog.window?.setGravity(Gravity.CENTER)
+
+        // Find the OK button and set a click listener to dismiss the dialog
+        val okButton = dialogView.findViewById<Button>(R.id.okBtn)
+        okButton.setOnClickListener {
+            alertDialog.dismiss()
+        }
+
+        alertDialog.show()
+    }
 }
