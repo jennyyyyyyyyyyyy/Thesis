@@ -25,9 +25,10 @@ import androidx.media3.ui.PlayerView
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import thesis.filconnected.FastApi.GetVideoResponse
-import thesis.filconnected.FastApi.RetrofitInstance
 import thesis.filconnected.R
+import thesis.filconnected.admin.manage_video.GetVideoResponse
+import thesis.filconnected.admin.manage_video.RetrofitInstance
+import thesis.filconnected.test.ProgressDialog
 import java.util.Locale
 
 class TextToFsl : AppCompatActivity() {
@@ -147,20 +148,31 @@ class TextToFsl : AppCompatActivity() {
         exoPlayer?.pause()
     }
 
-    // API: Fetch video
+
+
     private fun showVideo(filename: String) {
+        val progressDialog = android.app.ProgressDialog(this).apply {
+            setMessage("Loading video...")
+            setCancelable(false)
+            show()
+        }
         RetrofitInstance.api.getVideo(filename).enqueue(object : Callback<GetVideoResponse> {
             override fun onResponse(call: Call<GetVideoResponse>, response: Response<GetVideoResponse>) {
-                val videoUrl = response.body()?.url ?: "http://157.230.49.49:3000/videos/$filename.mp4"
+                progressDialog.dismiss()
+
+                val videoUrl = response.body()?.url ?: "http://157.230.49.49:8000/videos/$filename.mp4"
                 playVideo(videoUrl)
             }
 
             override fun onFailure(call: Call<GetVideoResponse>, t: Throwable) {
+                progressDialog.dismiss() // Dismiss progress dialog on failure
                 Log.e("NETWORK_ERROR", "Network error. Using default video URL.", t)
-                playVideo("http://157.230.49.49:3000/videos/$filename.mp4")
+                playVideo("http://157.230.49.49:8000/videos/$filename.mp4")
             }
         })
     }
+
+
 
     private fun playVideo(videoUrl: String) {
 
